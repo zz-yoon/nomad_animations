@@ -1,0 +1,1 @@
+ /Users/linda/Desktop/workspace/nomad_animations/.dart_tool/flutter_build/b0e411ddaf36511332f43d4f1cebfe2d/native_assets.yaml: 
