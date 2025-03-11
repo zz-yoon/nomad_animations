@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nomad_animations/screens/implicit_animations_screen.dart';
+import 'package:nomad_animations/screens/tweenAnimationbuilder_screen.dart';
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
@@ -31,6 +32,15 @@ class MenuScreen extends StatelessWidget {
                 );
               },
               child: Text("Implicit Animations"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                _goToPage(
+                  context,
+                  TweenanimationbuilderScreen(),
+                );
+              },
+              child: Text("tween Animations"),
             ),
           ],
         ),
